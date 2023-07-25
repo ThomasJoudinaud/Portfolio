@@ -32,7 +32,6 @@
 .description h2{
     font-family: Acme, serif;
     font-size: 60px;
-    letter-spacing: -0.1rem;
     pointer-events: none;
     z-index: 3;
     animation: pageChange 1s;

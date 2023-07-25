@@ -97,7 +97,7 @@ h2{
   background: rgb(34, 34, 34);
 }
 .colorBox:hover{
-  background-color: rgb(6, 80, 86);
+  background-color: rgb(4, 59, 63);
   transition: 0s;
 }
 @media screen and (max-width: 1650px) {

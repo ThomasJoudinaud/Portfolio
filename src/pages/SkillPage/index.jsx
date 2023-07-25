@@ -8,7 +8,7 @@ import "./skillPage.css"
 
 function SkillPage() {
 
-    const buttonTitle = "On passe à la suite ?"
+    const buttonTitle = "Projets"
     const buttonLink = "/project"
 
     return(

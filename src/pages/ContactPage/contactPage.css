@@ -64,7 +64,7 @@
     text-decoration: none;
     color: white;
 }
-.mail p{
+.mail a{
     height: 100%;
     width: 80%;
     display: flex;
@@ -74,11 +74,8 @@
     font-size: 2rem;
     color: white;
     transition: 0.3s ease-in-out;
-    opacity: 0.1;
     pointer-events: all;
-}
-.mail p:hover{
-    opacity: 1;
+    text-decoration: none;
 }
 .reseaux{
     margin-top: 2rem;

@@ -7,7 +7,7 @@ function ProjectPage() {
     const projects = Projects
 
 
-    const buttonTitle = "Et pour finir..."
+    const buttonTitle = "Contact"
     const buttonLink = "/contact"
 
     return(

@@ -3,7 +3,7 @@ import Logo from "../../assets/avatar.webp"
 import "./homePage.css"
 
 function HomePage() {
-    const buttonTitle = "C'est parti !"
+    const buttonTitle = "Compétences"
     const buttonLink = "/skill"
 
     return(

@@ -19,19 +19,19 @@ function Card({project}) {
 
     const Canva = () => {
         if(project.canva){
-            return(<a href={project.canva} className="canva">canva</a>)
+            return(<a href={project.canva} className="canva" target="_blank" rel="noopener noreferrer">canva</a>)
         }
     }
 
     const Github = () => {
         if(project.github){
-            return(<a href={project.github} className="github">github</a>)
+            return(<a href={project.github} className="github" target="_blank" rel="noopener noreferrer">github</a>)
         }
     }
 
     const Online = () => {
         if(project.online){
-            return(<a href={project.online} className="online">online</a>)
+            return(<a href={project.online} className="online" target="_blank" rel="noopener noreferrer">online</a>)
         }
     }
 

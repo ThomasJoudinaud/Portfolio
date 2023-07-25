@@ -7,7 +7,7 @@ import "./contactPage.css"
 
 function ContactPage() {
 
-    const buttonTitle = "On recommence ?"
+    const buttonTitle = "Accueil"
     const buttonLink = "/"
 
     return(
@@ -25,15 +25,15 @@ function ContactPage() {
                 </div>
                 <div className="mail">
                     <h3>Mail :</h3>
-                    <p className="mailAdress">blabla@blabla.fr</p>
+                    <a href="mailto:joudinaud.thomas@hotmail.fr" className="mailAdress" target="_blank" rel="noopener noreferrer">joudinaud.thomas@hotmail.fr</a>
                 </div>
                 <div className="reseaux">
                     <h3>Retrouvez moi également ici.</h3>
                     <div className="reseauxLogo">
-                        <a className="linkedin" href="https://www.linkedin.com/in/thomas-joudinaud-829587270/" ><img src={logoLinkedin} alt="linkedin" /></a>
-                        <a className="twitter" href="https://twitter.com/Thomas_DevDoe"><img src={logoTwitter} alt="twitter" /></a>
-                        <a className="github" href="https://github.com/ThomasJoudinaud"><img src={logoGitHub} alt="GitHub" /></a>
-                        <div className="cv"><img src={logoCV} alt="cv" /></div>
+                        <a className="linkedin" href="https://www.linkedin.com/in/thomas-joudinaud-829587270/" target="_blank" rel="noopener noreferrer"><img src={logoLinkedin} alt="linkedin" /></a>
+                        <a className="twitter" href="https://twitter.com/Thomas_DevDoe" target="_blank" rel="noopener noreferrer"><img src={logoTwitter} alt="twitter" /></a>
+                        <a className="github" href="https://github.com/ThomasJoudinaud" target="_blank" rel="noopener noreferrer"><img src={logoGitHub} alt="GitHub" /></a>
+                        <div className="cv" target="_blank" rel="noopener noreferrer"><img src={logoCV} alt="cv" /></div>
                     </div>
                 </div>
             </div>

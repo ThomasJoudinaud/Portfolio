@@ -25,14 +25,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  right: 1%;
+  right: 0%;
   cursor: pointer;
-  width: 3%;
+  width: 5%;
   color: #141414;
   font-size: 3rem;
+  background-color: rgb(20, 20, 20, 10%);
 }
 .prev{
-  left: 1%;
+  left: 0%;
 }
 .infoArray{
   position: absolute;
