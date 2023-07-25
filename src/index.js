@@ -14,11 +14,10 @@ root.render(
     <Router basename='/Portfolio' >
     <Header />
       <Routes>
-        <Route path="/Portfolio/" element={<HomePage />} />
-        <Route path="/Portfolio/skill" element={<SkillPage />} />
-        <Route path="/Portfolio/project" element={<ProjectPage />} />
-        <Route path="/Portfolio/contact" element={<ContactPage />} />
-        <Route path='*' element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/skill" element={<SkillPage />} />
+        <Route path="/project" element={<ProjectPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </Router>
   </React.StrictMode>

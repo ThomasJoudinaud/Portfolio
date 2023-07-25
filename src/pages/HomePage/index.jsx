@@ -4,7 +4,7 @@ import "./homePage.css"
 
 function HomePage() {
     const buttonTitle = "C'est parti !"
-    const buttonLink = "/Portfolio/skill"
+    const buttonLink = "/skill"
 
     return(
         <div className="homePage">
