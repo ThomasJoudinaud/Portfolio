@@ -8,7 +8,7 @@ import "./contactPage.css"
 function ContactPage() {
 
     const buttonTitle = "On recommence ?"
-    const buttonLink = "/"
+    const buttonLink = "/Portfolio/"
 
     return(
         <div className="contactPageBlock">

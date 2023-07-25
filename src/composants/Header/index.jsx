@@ -9,10 +9,10 @@ function Header(){
                 <h1 className="headerLogoTitle">Thomas Joudinaud</h1>
             </div>
             <nav className="headerNav">
-                <Link to="/" className="button">Accueil</Link>
-                <Link to="/skill" className="button">Compétences</Link>
-                <Link to="/project" className="button">Projets</Link>
-                <Link to="/contact" className="button">Contact</Link>
+                <Link to="/Portfolio/" className="button">Accueil</Link>
+                <Link to="/Portfolio/skill" className="button">Compétences</Link>
+                <Link to="/Portfolio/project" className="button">Projets</Link>
+                <Link to="/Portfolio/contact" className="button">Contact</Link>
             </nav>
         </header>
     )

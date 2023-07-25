@@ -8,7 +8,7 @@ function ProjectPage() {
 
 
     const buttonTitle = "Et pour finir..."
-    const buttonLink = "/contact"
+    const buttonLink = "/Portfolio/contact"
 
     return(
         <div className="projectPage">
