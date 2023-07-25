@@ -11,6 +11,12 @@ function Card({project}) {
         setModal(!modal)
     }
 
+    if (modal) {
+        document.body.classList("avtice-modal")
+    } else {
+        document.body.remove("avtice-modal")
+    }
+
     const Canva = () => {
         if(project.canva){
             return(<a href={project.canva} className="canva">canva</a>)
