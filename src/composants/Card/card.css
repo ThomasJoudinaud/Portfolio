@@ -192,9 +192,6 @@
 .closeModal:hover:after{
  transform: scaleX(1);
 }
-.body.active-modal{
-    overflow-y: hidden;
-}
 @media screen and (max-width: 1400px) {
     .modalContent{
         width: 80%;
