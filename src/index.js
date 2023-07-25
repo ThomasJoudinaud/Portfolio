@@ -14,10 +14,10 @@ root.render(
     <Router>
     <Header />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/skill" element={<SkillPage />} />
-        <Route path="/project" element={<ProjectPage />} />
-        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/Portfolio/" element={<HomePage />} />
+        <Route path="/Portfolio/skill" element={<SkillPage />} />
+        <Route path="/Portfolio/project" element={<ProjectPage />} />
+        <Route path="/Portfolio/contact" element={<ContactPage />} />
         <Route path='*' element={<HomePage />} />
       </Routes>
     </Router>
