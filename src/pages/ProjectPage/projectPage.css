@@ -1,0 +1,37 @@
+.projectPage{
+    animation: 0.5s ease-out 0s 1 pageSliding;
+    width: 100%;
+}
+.project{
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    width: 80%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 2%;
+    row-gap: 8%;
+}
+@media screen and (max-width: 1200px) {
+    .project{
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 5%;
+        margin-bottom: 6rem;
+    }
+}
+@media screen and (max-width: 900px) {
+    .project{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 3%;
+        margin-bottom: 7rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .project{
+        grid-template-columns: 1fr;
+        row-gap: 1%;
+        margin-bottom: 11rem;
+    }
+}

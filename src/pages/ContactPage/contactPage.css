@@ -1,0 +1,211 @@
+.contactPageBlock{
+    animation: 0.5s ease-out 0s 1 pageSliding;
+    position: relative;
+    width: 100%;
+}
+.contactPage{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.contactPage h2{
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    pointer-events: none;
+    z-index: 3;
+    animation: pageChange 1s;
+}
+.formation{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    pointer-events: none;
+    margin: 2rem;
+}
+.contactPage h3{
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: underline;
+    z-index: 3;
+    animation: pageChange 1s;
+
+}
+.contactPage ul{
+    margin: 1.5rem;
+    font-size: 20px;
+    font-weight: 400;
+    z-index: 3;
+    list-style: disc;
+    animation: pageChange 1s;
+}
+.mail{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 5rem;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(21, 21, 21);
+    padding: 0.5rem;
+    border-radius: 15px;
+    z-index: 3;
+    animation: pageChange 1s;
+}
+.mail h3{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: Acme, serif;
+    text-decoration: none;
+    color: white;
+}
+.mail p{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+    transition: 0.3s ease-in-out;
+    opacity: 0.1;
+    pointer-events: all;
+}
+.mail p:hover{
+    opacity: 1;
+}
+.reseaux{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+}
+.reseaux h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    pointer-events: none;
+    text-decoration: none;
+    z-index: 3;
+    animation: pageChange 1s;
+}
+.reseauxLogo{
+    margin: 2rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.reseauxLogo a, .reseauxLogo .cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(190, 190, 190);
+    border-radius: 10px;
+    padding: 1rem;
+    filter: grayscale();
+    z-index: 3;
+    animation: pageChange 1s;
+}
+.reseauxLogo a:hover, .reseauxLogo .cv:hover{
+    filter: none;
+}
+.twitter{
+    height: 40px;
+    width: 40px;
+}
+.linkedin{
+    height: 40px;
+    width: 80px;
+}
+.github{
+    height: 40px;
+    width: 40px;
+}
+.cv{
+    height: 40px;
+    width: 50px;
+}
+.cv img{
+    border-radius: 50%;
+}
+.reseauxLogo a img, .reseauxLogo .cv img{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease;
+}
+.reseauxLogo a img:hover, .reseauxLogo .cv img:hover{
+    transform: scale(1.1);
+}
+.localisation{
+    margin: 1rem;
+    pointer-events: none;
+    z-index: 3;
+    font-weight: 700;
+    animation: pageChange 1s;
+}
+@media screen and (max-width: 1200px) {
+    .contactPage{
+        justify-content: center;
+        align-items: center;
+    }
+    .mail{
+        padding: 0;
+        margin: 0;
+    }
+    .mail h3{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 900px) {
+    .contactPage{
+        width: 90%;
+    }
+    .mail{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 460px) {
+    .contactPage h2{
+        font-size: 50px;
+    }
+    .mail{
+        flex-direction: column;
+    }
+    .mail h3{
+        width: 100%;
+    }
+    .mail p{
+        width: 100%;
+        justify-content: center;
+    }
+    .reseaux{
+        justify-content: center;
+        align-items: center;
+    }
+    .reseaux h3, .reseauxLogo{
+        width: 100%;
+    }
+    .twitter{
+        height: 30px;
+        width: 30px;
+    }
+    .linkedin{
+        height: 30px;
+        width: 70px;
+    }
+    .github{
+        height: 30px;
+        width: 30px;
+    }
+    .cv{
+        height: 30px;
+        width: 40px;
+    }
+}

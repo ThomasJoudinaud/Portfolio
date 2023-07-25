@@ -1,0 +1,171 @@
+[
+    {
+        "id": "Kasa",
+        "title": "Kasa",
+        "date": "juillet 2023",
+        "cover": "https://i.postimg.cc/05mJkqnj/Any-Conv-com-kasa-01.webp",
+        "pictures": [
+            "https://i.postimg.cc/05mJkqnj/Any-Conv-com-kasa-01.webp",
+            "https://i.postimg.cc/7hgCmgh0/Any-Conv-com-kasa-02.webp",
+            "https://i.postimg.cc/MKmMBbh8/Any-Conv-com-kasa-03.webp",
+            "https://i.postimg.cc/sDrG10Hc/Any-Conv-com-kasa-04.webp",
+            "https://i.postimg.cc/SR026ZSm/Any-Conv-com-kasa-05.webp",
+            "https://i.postimg.cc/50QQFcMP/Any-Conv-com-kasa-06.webp",
+            "https://i.postimg.cc/5tRF04DY/Any-Conv-com-kasa-07.webp"
+        ],
+        "description": "[ Projet OpenClassRooms ] Kasa fait une refonte totale de leur site. Backend pas encore créer, maquette figma fournis. Créer une SPA en suivant le cahier des charges, tout en react. Utiliser react-router pour les routes. Tout le site doit être responsive. Durée de la mission: 7 jours. (juillet 2023)",
+        "technology": [
+            "Javascript",
+            "React (découverte)",
+            "CSS (SAAS/SCSS)"
+        ],
+        "canva": "https://www.canva.com/design/DAFoKLim7ow/xW30RIwJu_rOjWNXc-yinQ/edit",
+        "github": "https://github.com/ThomasJoudinaud/kasa.git",
+        "online": "https://thomasjoudinaud.github.io/kasa/"
+    },
+    {
+        "id": "Grimoire",
+        "title": "Mon Vieux Grimoire",
+        "date": "juin 2023",
+        "cover": "https://i.postimg.cc/521QrFqm/Any-Conv-com-mon-Vieu-Grimoire-01.webp",
+        "pictures": [
+            "https://i.postimg.cc/521QrFqm/Any-Conv-com-mon-Vieu-Grimoire-01.webp",
+            "https://i.postimg.cc/BZrKxzjk/Any-Conv-com-mon-Vieux-Grimoire-02.webp",
+            "https://i.postimg.cc/Y0Wtrbkm/Any-Conv-com-mon-Vieux-Grimoire-03.webp",
+            "https://i.postimg.cc/05MSKvy7/Any-Conv-com-mon-Vieux-Grimoire-04.webp",
+            "https://i.postimg.cc/Pr18KMZx/Any-Conv-com-mon-Vieux-Grimoire-05.webp",
+            "https://i.postimg.cc/W45NXdXt/Any-Conv-com-mon-Vieux-Grimoire-06.webp",
+            "https://i.postimg.cc/8531gq8S/Any-Conv-com-mon-Vieux-Grimoire-07.webp"
+        ],
+        "description": "[ Projet OpenClassRooms ] Site de notation de livre, frontend et figma donnée. Créer un backend et une API CRUD. Créer une database MongoDB pour stocker les informations. Ajouter des sécurités simples. Durée de la mission: 15 jours. (juin 2023)",
+        "technology": [
+            "NodeJS (découverte)",
+            "Express (découverte)",
+            "MongoDB (découverte)"
+        ],
+        "canva": "https://www.canva.com/design/DAFlO0KizDY/nAQLVtMd2T2vfbdORieqfw/edit",
+        "github": "https://github.com/ThomasJoudinaud/Mon-Vieu-Grimoire.git"
+    },
+    {
+        "id": "Nina",
+        "title": "Nina Carducci",
+        "date": "avril 2023",
+        "cover": "https://i.postimg.cc/GpgQrjXR/Any-Conv-com-Nina-01.webp",
+        "pictures": [
+            "https://i.postimg.cc/GpgQrjXR/Any-Conv-com-Nina-01.webp",
+            "https://i.postimg.cc/66kMyYt5/Any-Conv-com-Nina-02.webp",
+            "https://i.postimg.cc/cLZTcCvp/Any-Conv-com-Nina-03.webp",
+            "https://i.postimg.cc/CKxNW2HJ/Any-Conv-com-Nina-04.webp",
+            "https://i.postimg.cc/GhvqYGmP/Any-Conv-com-Nina-05.webp",
+            "https://i.postimg.cc/L8TDQSfn/Any-Conv-com-Nina-06.webp"
+        ],
+        "description": "[ Projet OpenClassRooms ] Site d'une photographe non référencer et bugger. Optimisation globale du site: performances + SEO. Création référencement local + réseaux sociaux. Amélioration de l'accessibilité du site. Débugger le site. Durée de la mission: 3 jours. (avril 2023)",
+        "technology": [
+            "HTML (référencement)",
+            "CSS (SEO)",
+            "Javascript (devTools et débug)"
+        ],
+        "canva": "https://www.canva.com/design/DAFhwtpfVk4/G21Kj1NkJ7ThFEox8yqrgA/edit",
+        "github": "https://github.com/ThomasJoudinaud/Nina-Carducci.git"
+    },
+    {
+        "id": "Sophie",
+        "title": "Sophie Bluel",
+        "date": "février 2023",
+        "cover": "https://i.postimg.cc/ZRNs94h5/Any-Conv-com-Sophie-01.webp",
+        "pictures": [
+            "https://i.postimg.cc/ZRNs94h5/Any-Conv-com-Sophie-01.webp",
+            "https://i.postimg.cc/VNdV8XGM/Any-Conv-com-Sophie02.webp",
+            "https://i.postimg.cc/FspWkTw3/Any-Conv-com-Sophie03.webp",
+            "https://i.postimg.cc/TPFHYhFs/Any-Conv-com-Sophie-04.webp",
+            "https://i.postimg.cc/pXRcdwcP/Any-Conv-com-Sophie-05.webp",
+            "https://i.postimg.cc/G3kSdLQM/Any-Conv-com-Sophie06.webp",
+            "https://i.postimg.cc/0jqWDF8d/Any-Conv-com-Sophie07.webp"
+        ],
+        "description": "[ Projet OpenClassRooms ] Créer la front-page du portfolio avec affichage dynamique des travaux. Créer la page de connexion. Ajouter un filtre. Créer une modale qui ajoute ou supprimer les travaux. Tout est dynamique sans rechargement. Durée de la mission: 30 jours. (février 2023)",
+        "technology": [
+            "HTML",
+            "CSS",
+            "Javascript (découverte)"
+        ],
+        "canva": "https://www.canva.com/design/DAFd67zLZVs/nTG5-iWKX4PiiIYhY3Da-A/edit",
+        "github": "https://github.com/ThomasJoudinaud/Portfolio-Sophie.git"
+    },
+    {
+        "id": "Booki",
+        "title": "Booki",
+        "date": "décembre 2022",
+        "cover": "https://i.postimg.cc/Fzv22sdJ/Booki01.webp",
+        "pictures": [
+            "https://i.postimg.cc/Fzv22sdJ/Booki01.webp",
+            "https://i.postimg.cc/HntfHDXv/Booki02.webp",
+            "https://i.postimg.cc/h4bFVx68/Booki03.webp"
+        ],
+        "description": "[ Projet OpenClassRooms ] L'entreprise souhaite créer une vitrine responsive pour son site Booki. Le code doit être réalisé en HTML et CSS. Travailler en collaboration avec la CTO et l'UI designer. La maquette du site est fournis sur figma. Durée de la mission: 10 jours. (décembre 2022)",
+        "technology": [
+            "HTML (découverte)",
+            "CSS (découverte)",
+            "Media queries (découverte)"
+        ],
+        "canva": "https://www.canva.com/design/DAFXMCw-ctE/C-Iz_Uap1Az0Pt-B-w9jxA/edit",
+        "github": "https://github.com/ThomasJoudinaud/OPC-Booki.git",
+        "online": "https://thomasjoudinaud.github.io/OPC-Booki/"
+    },
+    {
+        "id": "Shopify 2",
+        "title": "Sopify 2",
+        "date": "juin 2022",
+        "cover": "https://i.postimg.cc/j27qVpV7/Shopify2-01.webp",
+        "pictures": [
+            "https://i.postimg.cc/j27qVpV7/Shopify2-01.webp",
+            "https://i.postimg.cc/mZz72hBQ/Shopify2-02.webp",
+            "https://i.postimg.cc/BnsFggDg/Shopify2-03.webp",
+            "https://i.postimg.cc/BZrH8snR/Shopify2-04.webp",
+            "https://i.postimg.cc/7YS70cCh/Shopify2-05.webp",
+            "https://i.postimg.cc/WtcNs5jf/Shopify2-06.webp"
+        ],
+        "description": "[ Projet Perso ] Premiers contacts avec HTML et CSS. Essaie de reproduction d'une nouvelle vitrine d'un site, Shopify. Durée de la mission: 2 jours. (juin 2022)",
+        "technology": [
+            "HTML (découverte)",
+            "CSS (découverte)"
+        ],
+        "github": "https://github.com/ThomasJoudinaud/Shopify-2.git",
+        "online": "https://thomasjoudinaud.github.io/Shopify-2/"
+    },
+    {
+        "id": "Muzzle",
+        "title": "Muzzle",
+        "date": "mai 2022",
+        "cover": "https://i.postimg.cc/gj0HcKcd/muzzle-01.webp",
+        "pictures": [
+            "https://i.postimg.cc/gj0HcKcd/muzzle-01.webp"
+        ],
+        "description": "[ Projet Perso ] Premiers contacts avec HTML et CSS. Essaie de reproduction d'une vitrine d'un site, Muzzle. Certaines partie de la page ne sont pas faite, comme le chat en direct. Durée de la mission: 7 jours. (mai 2022)",
+        "technology": [
+            "HTML (découverte)",
+            "CSS (découverte)"
+        ],
+        "github": "https://github.com/ThomasJoudinaud/Muzzle.git",
+        "online": "https://thomasjoudinaud.github.io/Muzzle/"
+    },
+    {
+        "id": "Shopify",
+        "title": "Shopify",
+        "date": "avril 2022",
+        "cover": "https://i.postimg.cc/Y9Bxrhtb/Shopify-01.webp",
+        "pictures": [
+            "https://i.postimg.cc/Y9Bxrhtb/Shopify-01.webp",
+            "https://i.postimg.cc/fL7fJDLZ/Shopify-02.webp",
+            "https://i.postimg.cc/T1CjJ0g4/Shopify-03.webp",
+            "https://i.postimg.cc/QMTbZpZF/Shopify-04.webp",
+            "https://i.postimg.cc/1X9cF2nF/Shopify-05.webp"
+        ],
+        "description": "[ Projet Perso ] Premiers contacts avec HTML et CSS. Essaie de reproduction d'une vitrine d'un site, Shopify. Durée de la mission: 10 jours. (avril 2022)",
+        "technology": [
+            "HTML (découverte)",
+            "CSS (découverte)"
+        ],
+        "github": "https://github.com/ThomasJoudinaud/Shopify.git",
+        "online": "https://thomasjoudinaud.github.io/Shopify/"
+    }
+]

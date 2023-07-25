@@ -1,0 +1,240 @@
+.cardBlock{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.date{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(24, 23, 23);
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 2rem;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.date:hover{
+    opacity: 0.9;
+}
+.card{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px rgb(111, 111, 111);
+    z-index: 4;
+    animation: pageChange 1s;
+}
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 10px rgb(237, 237, 237)
+}
+.cardCover{
+    height: 80%;
+    width: 100%;
+}
+.cardCover img{
+    width: 100%;
+    height: 100%;
+}
+.cardTitle{
+    height: 20%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    background-color: rgb(28, 27, 27);
+}
+.modal, .overlay{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: 5;
+}
+.overlay{
+    background-color: rgb(15, 15, 15);
+    opacity: 0.5;
+}
+.modalContent{
+    z-index: 6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(49, 46, 46);
+    width: 60%;
+    height: 80%;
+}
+.modalHeader{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.carouselModal{
+    width: 97%;
+    height: 60%;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+}
+.carouselModal img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.descriptionModal{
+    width: 80%;
+    height: 20%;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.description{
+    width: 50%;
+    height: 95%;
+    text-align: left;
+}
+.technology{
+    width: 50%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.technology h3{
+    text-decoration: underline;
+}
+.technology ul{
+    text-align: end;
+}
+.linkModal{
+    width: 98%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.linkModal .canva, .linkModal .online, .linkModal .github{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 2rem;
+    border-radius: 10px;
+    transition: 1s ease;
+}
+.linkModal .canva{
+    color: rgb(9, 115, 244);
+}
+.linkModal .canva:hover{
+    background: rgb(9, 115, 244);
+    color: white;
+}
+.linkModal .github{
+    color: rgb(182, 15, 224);
+}
+.linkModal .github:hover{
+    background-color: rgb(182, 15, 224);
+    color: white;
+}
+.linkModal .online{
+    color: rgb(23, 221, 20);
+}
+.linkModal .online:hover{
+    background-color: rgb(23, 221, 20);
+    color: white;
+}
+.closeModal{
+    height: 10%;
+    background: none;
+    border: none;
+    color: rgb(206, 206, 206);
+    font-weight: 800;
+    transition: 0.3 ease-in-out;
+}
+.closeModal:after{
+    display: block;
+    content: "";
+    border-bottom: solid 3px rgb(209, 209, 209);
+    transition: transform 0.3s ease-in-out;
+    transform: scaleX(0);
+}
+.closeModal:hover:after{
+ transform: scaleX(1);
+}
+@media screen and (max-width: 1400px) {
+    .modalContent{
+        width: 80%;
+        height: 90%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .modalContent{
+        width: 90%;
+    }
+    .carouselModal{
+        height: 40%;
+    }
+    .descriptionModal{
+        flex-direction: column;
+        width: 90%;
+        height: 40%;
+    }
+    .description{
+        width: 100%;
+    }
+    .technology{
+        width: 100%;
+    }
+    .modalHeader{
+        width: 95%;
+        height: 15%;
+        flex-direction: column-reverse;
+    }
+    .modalHeader h2{
+        width: 100%;
+        text-align: start;
+    }
+    .closeModal{
+        width: 100%;
+        text-align: end;
+    }
+}
+@media screen and (max-width: 600px) {
+    .carouselModal{
+        height: 30%;
+    }
+    .modalHeader h2{
+        font-size: 2.5rem;
+    }
+}

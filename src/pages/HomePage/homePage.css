@@ -1,0 +1,94 @@
+@keyframes pageChange {
+    from {
+        transform: translateY(-10%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.homePage{
+    position: relative;
+    width: 100%;
+}
+.presentation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 50%;
+}
+.description h2{
+    font-family: Acme, serif;
+    font-size: 60px;
+    letter-spacing: -0.1rem;
+    pointer-events: none;
+    z-index: 3;
+    animation: pageChange 1s;
+}
+.description p{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 2rem;
+    pointer-events: none;
+    z-index: 3;
+    animation: pageChange 1s;
+}
+.Picture{
+    box-sizing: content-box;
+    width: 50%;
+    border-radius: 50%;
+    z-index: 3;
+    animation: pageChange 1s;
+  }
+.Picture img{
+object-fit: cover;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+transition: 0.3s ease-in-out;
+filter: blur(0.5rem);
+}
+.Picture img:hover{
+    transform: scale(1.2);
+    filter: blur(0rem);
+}
+@media screen and (max-width: 1200px) {
+    .presentation{
+        width: 90%;
+        margin-bottom: 7rem;
+        justify-content: space-evenly;
+    }
+    .description{
+        width: 67%;
+    }
+    .Picture{
+        width: 27%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .presentation{
+        flex-direction: column-reverse;
+    }
+    .Picture{
+        margin-bottom: 3rem;
+        width: 90%;
+    }
+    .description{
+        width: 90%;
+    }
+    .presentation{
+        margin-bottom: 4rem;
+    }
+}
