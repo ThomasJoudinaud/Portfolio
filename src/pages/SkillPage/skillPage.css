@@ -8,9 +8,12 @@
     margin: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .skillPage h2{
     text-align: left;
+    width: 100%;
     z-index: 3;
     pointer-events: none;
     animation: pageChange 1s;
@@ -19,11 +22,13 @@
     width: 100%;
     height: auto;
     margin: auto;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2%;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    align-items: center;
+    justify-content: center;
 }
 .competences img{
     width: 60px;
@@ -38,7 +43,7 @@
     display: flex;
     width: 210px;
     height: 320px;
-    margin: 0.5rem;
+    margin: auto;
 }
 .html, .js, .node, .css, .react{
     display: flex;
@@ -72,11 +77,37 @@
     margin-left: 1rem;
     pointer-events: none;
 }
+@media screen and (max-width: 1800px) {
+    .competences{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 10%;
+        margin-bottom: 8rem;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .competences{
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 9rem;
+    }
+}
 @media screen and (max-width: 1200px) {
     .skillPage{
         width: 90%;
     }
     .skillPage h2{
         text-align: center;
+    }
+}
+@media screen and (max-width: 800px) {
+    .competences{
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 15rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .competences{
+        grid-template-columns: 1fr;
+        row-gap: 2%;
+        margin-bottom: 11rem;
     }
 }
