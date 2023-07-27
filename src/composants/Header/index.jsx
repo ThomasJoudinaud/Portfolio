@@ -9,7 +9,7 @@ function Header(){
                 <h1 className="headerLogoTitle">Thomas Joudinaud</h1>
             </div>
             <nav className="headerNav">
-                <Link to="/" className="button">Accueil</Link>
+                <Link to="/" className="button">À Propos</Link>
                 <Link to="/skill" className="button">Compétences</Link>
                 <Link to="/project" className="button">Projets</Link>
                 <Link to="/contact" className="button">Contact</Link>

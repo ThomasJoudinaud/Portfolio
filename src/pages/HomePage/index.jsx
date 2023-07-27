@@ -10,18 +10,25 @@ function HomePage() {
         <div className="homePage">
             <div className="presentation">
                 <div className="description">
-                    <h2>Présentation</h2>
+                    <h2>À Propos</h2>
                     <p>
-                        Après une expérience de 13 ans en tant qu'animateur, je me suis reconverti en développeur web.
-                        <br />
-                        Un développeur, pour moi, c'est quelqu'un qui veut apprendre. Il découvre des choses, cherche à les comprendre, les résous, regardent comment d'autres l'ont résolu, puis apprend. Et on recommence.
+                        Riche d'une expérience de plus de 10 ans en animation, je souhaite apporter mon inspiration et ma créativité à l'univers du web.
+                        Suite à un bootcamp de 8 mois chez OpenClassRooms, je me lance dans le métier de <span className="special">Développeur Frontend</span>.
                     </p>
+                    <div className="formation">
+                        <h3>Formations:</h3>
+                        <ul>
+                            <li>Développeur Web - OpenClassRooms (2023)</li>
+                            <li>Bac Marketing - Silvia Monfort (2012)</li>
+                            <li>BAFA - PeP28 (2008)</li>
+                        </ul>                
+                    </div>
                 </div>
                 <div className="Picture">
                     <img src={Logo} alt="Thomas Joudinaud" />
                 </div>
             </div>
-                <NextButton title={buttonTitle} link={buttonLink} />
+            <NextButton title={buttonTitle} link={buttonLink} />
         </div>
     )
 }

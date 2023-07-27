@@ -14,12 +14,12 @@
 }
 .presentation{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 60%;
     margin: auto;
     margin-top: 5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 .description{
     display: flex;
@@ -31,7 +31,6 @@
 }
 .description h2{
     font-family: Acme, serif;
-    font-size: 60px;
     pointer-events: none;
     z-index: 3;
     animation: pageChange 1s;
@@ -44,36 +43,64 @@
     z-index: 3;
     animation: pageChange 1s;
 }
+.description .special{
+    font-weight: 800;
+    font-size: 22px;
+    color: rgb(24, 141, 24);
+}
 .Picture{
     box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
-    border-radius: 50%;
-    z-index: 3;
-    animation: pageChange 1s;
   }
 .Picture img{
-object-fit: cover;
-width: 200px;
-height: 200px;
-border-radius: 50%;
-transition: 0.3s ease-in-out;
-filter: blur(0.5rem);
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    filter: blur(0.5rem);
+    animation: pageChange 1s;
+    z-index: 3;
 }
 .Picture img:hover{
     transform: scale(1.2);
     filter: blur(0rem);
+}
+.formation{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    pointer-events: none;
+    margin-top: 1.5rem;
+}
+.formation h3{
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: underline;
+    z-index: 3;
+    animation: pageChange 1s;
+    margin-bottom: 1rem;
+}
+.formation ul{
+    font-size: 20px;
+    font-weight: 400;
+    z-index: 3;
+    list-style: disc;
+    animation: pageChange 1s;
+}
+@media screen and (max-width: 1400px) {
+    .presentation{
+        width: 80%;
+    }
 }
 @media screen and (max-width: 1200px) {
     .presentation{
         width: 90%;
         margin-bottom: 7rem;
         justify-content: space-evenly;
-    }
-    .description{
-        width: 67%;
-    }
-    .Picture{
-        width: 27%;
     }
 }
 @media screen and (max-width: 900px) {
@@ -83,11 +110,17 @@ filter: blur(0.5rem);
     .Picture{
         margin-bottom: 3rem;
         width: 90%;
+        height: 220px;
     }
     .description{
         width: 90%;
     }
     .presentation{
         margin-bottom: 4rem;
+    }
+}
+@media screen and (max-width: 460px) {
+    .formation ul{
+        list-style-type: none;
     }
 }

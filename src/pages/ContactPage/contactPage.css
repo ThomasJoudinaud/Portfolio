@@ -17,29 +17,6 @@
     z-index: 3;
     animation: pageChange 1s;
 }
-.formation{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    pointer-events: none;
-    margin: 2rem;
-}
-.contactPage h3{
-    font-size: 25px;
-    font-weight: 600;
-    text-decoration: underline;
-    z-index: 3;
-    animation: pageChange 1s;
-
-}
-.contactPage ul{
-    margin: 1.5rem;
-    font-size: 20px;
-    font-weight: 400;
-    z-index: 3;
-    list-style: disc;
-    animation: pageChange 1s;
-}
 .mail{
     display: flex;
     justify-content: left;
@@ -47,6 +24,8 @@
     height: 5rem;
     width: 80%;
     margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     background-color: rgb(21, 21, 21);
     padding: 0.5rem;
     border-radius: 15px;
@@ -159,6 +138,9 @@
     .mail h3{
         font-size: 2rem;
     }
+    .mail a{
+        font-size: 1.5rem;
+    }
 }
 @media screen and (max-width: 900px) {
     .contactPage{
@@ -168,17 +150,24 @@
         width: 100%;
     }
 }
+@media screen and (max-width: 480px) {
+    .mail a{
+        font-size: 1rem;
+    }
+}
 @media screen and (max-width: 460px) {
     .contactPage h2{
         font-size: 50px;
     }
     .mail{
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .mail h3{
         width: 100%;
     }
-    .mail p{
+    .mail a{
         width: 100%;
         justify-content: center;
     }
