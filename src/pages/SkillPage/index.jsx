@@ -8,7 +8,7 @@ import "./skillPage.css"
 
 function SkillPage() {
 
-    const buttonTitle = "Projets"
+    const buttonTitle = "Nous continuons par là.."
     const buttonLink = "/project"
 
     return(
@@ -24,6 +24,9 @@ function SkillPage() {
                                 <li>Optimiser l'accéssibilité d'un site.</li>
                                 <li>Créer un référencement locale.</li>
                             </ul>
+                            <div className="ratingTech">
+                                <p><span className="starRating" >★★★★</span>★</p>
+                            </div>
                         </div>
                     </div>
                     <div className="cssAnimation">
@@ -36,6 +39,9 @@ function SkillPage() {
                                 <li>SAAS.</li>
                                 <li>Animation CSS.</li>
                             </ul>
+                            <div className="ratingTech">
+                                <p><span className="starRating" >★★★★</span>★</p>
+                            </div>
                         </div>
                     </div>
                     <div className="jsAnimation">
@@ -49,6 +55,9 @@ function SkillPage() {
                                 <li>Manipuler le DOM.</li>
                                 <li>Gérer les User Event.</li>
                             </ul>
+                            <div className="ratingTech">
+                                <p><span className="starRating" >★★★★</span>★</p>
+                            </div>
                         </div>
                     </div>
                     <div className="reactAnimation">
@@ -60,6 +69,9 @@ function SkillPage() {
                                 <li>React Router.</li>
                                 <li>Créer et utiliser composants fonctionnels.</li>
                             </ul>
+                            <div className="ratingTech">
+                                <p><span className="starRating" >★★★</span>★★</p>
+                            </div>
                         </div>
                     </div>
                     <div className="nodeAnimation">
@@ -72,6 +84,9 @@ function SkillPage() {
                                 <li>Ajouter des sécurités sur les données stockées (cryptage, JWT).</li>
                                 <li>Créer et utiliser une DataBase(MongoDB).</li>
                             </ul>
+                            <div className="ratingTech">
+                                <p><span className="starRating" >★★</span>★★★</p>
+                            </div>
                         </div>
                     </div>
                 </div>

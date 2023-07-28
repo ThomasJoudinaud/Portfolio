@@ -1,3 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Arimo:wght@400;500;600;700&family=Dancing+Script:wght@400;700&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  background-color: rgb(222, 219, 219);
+  font-family: 'Arimo', sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 16px;
+}
+html body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+html body #root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+h2{
+  font-family: Acme, serif;
+  font-size: 60px;
+  color: rgb(227, 106, 13);
+  letter-spacing: -0.1rem;
+}
+
+
 @keyframes pageChange {
     from {
         transform: translateY(-10%);
@@ -11,6 +88,14 @@
 .homePage{
     position: relative;
     width: 100%;
+    animation: pageChange 1s;
+}
+.homePage h2{
+    width: 70%;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
 }
 .presentation{
     display: flex;
@@ -29,24 +114,22 @@
     height: 100%;
     width: 50%;
 }
-.description h2{
-    font-family: Acme, serif;
-    pointer-events: none;
-    z-index: 3;
-    animation: pageChange 1s;
-}
 .description p{
     font-size: 20px;
     text-align: left;
     margin-top: 2rem;
-    pointer-events: none;
-    z-index: 3;
-    animation: pageChange 1s;
+    font-weight: 600;
+    animation: slideIn 1s;
 }
 .description .special{
     font-weight: 800;
-    font-size: 22px;
-    color: rgb(24, 141, 24);
+    font-size: 25px;
+    color: rgb(227, 106, 13);
+    transition: 0.3s ease-in-out;
+    animation: slideIn 2s;
+}
+.description .special:hover{
+    transform: scale(1.1);
 }
 .Picture{
     box-sizing: content-box;
@@ -62,8 +145,6 @@
     border-radius: 50%;
     transition: 0.3s ease-in-out;
     filter: blur(0.5rem);
-    animation: pageChange 1s;
-    z-index: 3;
 }
 .Picture img:hover{
     transform: scale(1.2);
@@ -78,18 +159,14 @@
 }
 .formation h3{
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 900;
     text-decoration: underline;
-    z-index: 3;
-    animation: pageChange 1s;
     margin-bottom: 1rem;
 }
 .formation ul{
     font-size: 20px;
-    font-weight: 400;
-    z-index: 3;
+    font-weight: 600;
     list-style: disc;
-    animation: pageChange 1s;
 }
 @media screen and (max-width: 1400px) {
     .presentation{

@@ -1,0 +1,101 @@
+.frontPage{
+    animation: pageChange 1s;
+    width: 100%;
+}
+.frontPage h2{
+    width: 70%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.accueil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 4rem;
+}
+.motivation{
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 80%;
+}
+.motivation .special{
+    font-weight: 900;
+    font-size: 1.7rem;
+    color: rgb(227, 106, 13);
+}
+.frontPage h3{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+.website{
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 1%;
+    
+}
+.webAbout, .webSkill, .webProject, .webContact{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    background-color: rgb(37, 37, 37);
+    box-shadow: 2px 2px 5px 3px rgb(5, 5, 5);
+    border-radius: 10px;
+    animation: slideIn 2s;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.webAbout:hover, .webSkill:hover, .webProject:hover, .webContact:hover{
+    transform: scale(1.01);
+    box-shadow: 4px 4px 5px 5px rgb(5, 5, 5);
+}
+.webAbout h4, .webSkill h4, .webProject h4, .webContact h4{
+    height: 20%;
+    width: 100%;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.webAbout img, .webSkill img, .webProject img, .webContact img{
+    width: 95%;
+    height: 70%;
+    border-radius: 10px;
+}
+@media screen and (max-width: 1400px) {
+    .website{
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 4%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .website{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 4%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .website{
+        grid-template-columns: 1fr;
+        row-gap: 2%;
+        width: 70%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .website{
+
+        width: 90%;
+    }
+}

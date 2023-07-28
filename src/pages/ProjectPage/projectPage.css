@@ -1,6 +1,12 @@
 .projectPage{
-    animation: 0.5s ease-out 0s 1 pageSliding;
+    animation: pageChange 1s;
     width: 100%;
+}
+.projectPage h2{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
 }
 .project{
     margin: auto;

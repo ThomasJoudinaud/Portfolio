@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
+import FrontPage from "./pages/FrontPage/index"
 import HomePage from "./pages/HomePage/index"
 import Header from "./composants/Header/index"
 import SkillPage from "./pages/SkillPage/index"
@@ -14,7 +15,8 @@ root.render(
     <Router basename='/Portfolio' >
     <Header />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<FrontPage />} />
+        <Route path="/about" element={<HomePage />} />
         <Route path="/skill" element={<SkillPage />} />
         <Route path="/project" element={<ProjectPage />} />
         <Route path="/contact" element={<ContactPage />} />

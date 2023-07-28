@@ -1,5 +1,5 @@
 .contactPageBlock{
-    animation: 0.5s ease-out 0s 1 pageSliding;
+    animation: pageChange 1s;
     position: relative;
     width: 100%;
 }
@@ -14,8 +14,7 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     pointer-events: none;
-    z-index: 3;
-    animation: pageChange 1s;
+    margin-bottom: 3rem;
 }
 .mail{
     display: flex;
@@ -25,12 +24,11 @@
     width: 80%;
     margin: auto;
     margin-top: 2rem;
-    margin-bottom: 2rem;
-    background-color: rgb(21, 21, 21);
+    margin-bottom: 4rem;
+    background-color: rgb(37, 37, 37);
     padding: 0.5rem;
     border-radius: 15px;
-    z-index: 3;
-    animation: pageChange 1s;
+    animation: slideIn 2s;
 }
 .mail h3{
     height: 100%;
@@ -54,7 +52,9 @@
     color: white;
     transition: 0.3s ease-in-out;
     pointer-events: all;
-    text-decoration: none;
+}
+.mail a:hover{
+    color: orange;
 }
 .reseaux{
     margin-top: 2rem;
@@ -66,10 +66,7 @@
 .reseaux h3{
     font-size: 1.5rem;
     font-weight: 700;
-    pointer-events: none;
     text-decoration: none;
-    z-index: 3;
-    animation: pageChange 1s;
 }
 .reseauxLogo{
     margin: 2rem;
@@ -82,31 +79,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(211, 207, 207);
     border-radius: 10px;
     padding: 1rem;
-    filter: grayscale();
-    z-index: 3;
-    animation: pageChange 1s;
+    transition: 0.3s ease;
 }
 .reseauxLogo a:hover, .reseauxLogo .cv:hover{
-    filter: none;
+    transform: scale(1.2);
 }
-.twitter{
+.twitter, .linkedin, .github, .cv{
     height: 40px;
     width: 40px;
-}
-.linkedin{
-    height: 40px;
-    width: 80px;
-}
-.github{
-    height: 40px;
-    width: 40px;
-}
-.cv{
-    height: 40px;
-    width: 50px;
 }
 .cv img{
     border-radius: 50%;
@@ -116,13 +99,9 @@
     height: 100%;
     transition: 0.3s ease;
 }
-.reseauxLogo a img:hover, .reseauxLogo .cv img:hover{
-    transform: scale(1.1);
-}
 .localisation{
     margin: 1rem;
-    pointer-events: none;
-    z-index: 3;
+    margin-bottom: 3rem;
     font-weight: 700;
     animation: pageChange 1s;
 }
@@ -140,6 +119,9 @@
     }
     .mail a{
         font-size: 1.5rem;
+    }
+    .reseaux{
+        width: 100%;
     }
 }
 @media screen and (max-width: 900px) {
@@ -178,20 +160,8 @@
     .reseaux h3, .reseauxLogo{
         width: 100%;
     }
-    .twitter{
+    .twitter, .linkedin, .github, .cv{
         height: 30px;
         width: 30px;
-    }
-    .linkedin{
-        height: 30px;
-        width: 70px;
-    }
-    .github{
-        height: 30px;
-        width: 30px;
-    }
-    .cv{
-        height: 30px;
-        width: 40px;
     }
 }

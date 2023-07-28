@@ -3,17 +3,17 @@ import Logo from "../../assets/avatar.webp"
 import "./homePage.css"
 
 function HomePage() {
-    const buttonTitle = "Compétences"
+    const buttonTitle = "La suite est par ici.."
     const buttonLink = "/skill"
 
     return(
         <div className="homePage">
+            <h2>À Propos</h2>
             <div className="presentation">
                 <div className="description">
-                    <h2>À Propos</h2>
                     <p>
-                        Riche d'une expérience de plus de 10 ans en animation, je souhaite apporter mon inspiration et ma créativité à l'univers du web.
-                        Suite à un bootcamp de 8 mois chez OpenClassRooms, je me lance dans le métier de <span className="special">Développeur Frontend</span>.
+                    Riche d'une expérience de plus de 10 ans en animation, qui m'a apporté des compétences en <span className="special">organisation</span>, en <span className="special">travail d'équipe</span>, et en capacité d'<span className="special">adaptation</span>, j'ai décidé de me réorienter professionnellement.
+                        Suite à une formation de 8 mois chez OpenClassRooms, je suis maintenant un <span className="special">Développeur Frontend, spécialisé en Javascript</span>.
                     </p>
                     <div className="formation">
                         <h3>Formations:</h3>

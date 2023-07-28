@@ -1,4 +1,3 @@
-import NextButton from "../../composants/NextButton/index"
 import logoTwitter from "../../assets/twitter.png"
 import logoLinkedin from "../../assets/linkedin.webp"
 import logoGitHub from "../../assets/github.png"
@@ -6,9 +5,6 @@ import logoCV from "../../assets/avatar.webp"
 import "./contactPage.css"
 
 function ContactPage() {
-
-    const buttonTitle = "À Propos"
-    const buttonLink = "/"
 
     return(
         <div className="contactPageBlock">
@@ -29,7 +25,6 @@ function ContactPage() {
                     </div>
                 </div>
             </div>
-                <NextButton title={buttonTitle} link={buttonLink} />
         </div>
     )
 }

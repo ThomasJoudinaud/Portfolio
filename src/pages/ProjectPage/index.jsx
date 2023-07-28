@@ -7,11 +7,12 @@ function ProjectPage() {
     const projects = Projects
 
 
-    const buttonTitle = "Contact"
+    const buttonTitle = "Et pour conclure.."
     const buttonLink = "/contact"
 
     return(
         <div className="projectPage">
+            <h2>Mes projets</h2>
             <div className="project">
                 {projects.map((project) => (
                     <ProjectCard key={project.id} project={project} />

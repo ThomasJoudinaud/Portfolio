@@ -8,6 +8,11 @@ function NextButton({title, link}){
     return(
         <div className='footer'>
             <div className="nextButton" onClick={() => navigate(link)}>{title}</div>
+            <div className='mailFooter'>
+                <div className='mailFooterMail'>
+                    <a href="mailto:joudinaud.thomas@hotmail.fr" target="_blank" rel="noopener noreferrer">Contactez moi !!</a>
+                </div>
+            </div>
         </div>
     )
 }
