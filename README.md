@@ -1,3 +1,12 @@
+ATTENTION, le site qui devait fournir un lien PERMANENT pour les photos de projets a supprimer les photos. de ce fait, je travail actuellement a remettre en ligne les images.
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
