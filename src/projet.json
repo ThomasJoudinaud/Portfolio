@@ -3,15 +3,11 @@
         "id": "Kasa",
         "title": "Kasa",
         "date": "juillet 2023",
-        "cover": "https://i.postimg.cc/05mJkqnj/Any-Conv-com-kasa-01.webp",
+        "cover": "https://www.zupimages.net/up/23/36/j3wx.png",
         "pictures": [
-            "https://i.postimg.cc/05mJkqnj/Any-Conv-com-kasa-01.webp",
-            "https://i.postimg.cc/7hgCmgh0/Any-Conv-com-kasa-02.webp",
-            "https://i.postimg.cc/MKmMBbh8/Any-Conv-com-kasa-03.webp",
-            "https://i.postimg.cc/sDrG10Hc/Any-Conv-com-kasa-04.webp",
-            "https://i.postimg.cc/SR026ZSm/Any-Conv-com-kasa-05.webp",
-            "https://i.postimg.cc/50QQFcMP/Any-Conv-com-kasa-06.webp",
-            "https://i.postimg.cc/5tRF04DY/Any-Conv-com-kasa-07.webp"
+            "https://www.zupimages.net/up/23/36/j3wx.png",
+            "https://www.zupimages.net/up/23/36/zdm0.png",
+            "https://www.zupimages.net/up/23/36/gobd.png"
         ],
         "description": "[ Projet OpenClassRooms ] Kasa fait une refonte totale de son site. Backend pas encore créer, maquette figma fournie. Créer une SPA en suivant le cahier des charges. Utiliser react-router pour les routes. Tout le site doit être responsive. Durée de la mission: 7 jours. (juillet 2023)",
         "technology": [
@@ -27,15 +23,11 @@
         "id": "Grimoire",
         "title": "Mon Vieux Grimoire",
         "date": "juin 2023",
-        "cover": "https://i.postimg.cc/521QrFqm/Any-Conv-com-mon-Vieu-Grimoire-01.webp",
+        "cover": "https://www.zupimages.net/up/23/36/fw2w.png",
         "pictures": [
-            "https://i.postimg.cc/521QrFqm/Any-Conv-com-mon-Vieu-Grimoire-01.webp",
-            "https://i.postimg.cc/BZrKxzjk/Any-Conv-com-mon-Vieux-Grimoire-02.webp",
-            "https://i.postimg.cc/Y0Wtrbkm/Any-Conv-com-mon-Vieux-Grimoire-03.webp",
-            "https://i.postimg.cc/05MSKvy7/Any-Conv-com-mon-Vieux-Grimoire-04.webp",
-            "https://i.postimg.cc/Pr18KMZx/Any-Conv-com-mon-Vieux-Grimoire-05.webp",
-            "https://i.postimg.cc/W45NXdXt/Any-Conv-com-mon-Vieux-Grimoire-06.webp",
-            "https://i.postimg.cc/8531gq8S/Any-Conv-com-mon-Vieux-Grimoire-07.webp"
+            "https://www.zupimages.net/up/23/36/fw2w.png",
+            "https://www.zupimages.net/up/23/36/5loe.png",
+            "https://www.zupimages.net/up/23/36/0ti8.png"
         ],
         "description": "[ Projet OpenClassRooms ] Site de notation de livres, frontend et figma fournis. Concaption d'un backend et d'une API CRUD. Création d'une database MongoDB pour stocker les informations. Ajout de sécurités simples. Durée de la mission: 15 jours. (juin 2023)",
         "technology": [
@@ -50,14 +42,13 @@
         "id": "Nina",
         "title": "Nina Carducci",
         "date": "avril 2023",
-        "cover": "https://i.postimg.cc/GpgQrjXR/Any-Conv-com-Nina-01.webp",
+        "cover": "https://www.zupimages.net/up/23/36/piol.png",
         "pictures": [
-            "https://i.postimg.cc/GpgQrjXR/Any-Conv-com-Nina-01.webp",
-            "https://i.postimg.cc/66kMyYt5/Any-Conv-com-Nina-02.webp",
-            "https://i.postimg.cc/cLZTcCvp/Any-Conv-com-Nina-03.webp",
-            "https://i.postimg.cc/CKxNW2HJ/Any-Conv-com-Nina-04.webp",
-            "https://i.postimg.cc/GhvqYGmP/Any-Conv-com-Nina-05.webp",
-            "https://i.postimg.cc/L8TDQSfn/Any-Conv-com-Nina-06.webp"
+            "https://www.zupimages.net/up/23/36/piol.png",
+            "https://www.zupimages.net/up/23/36/meom.png",
+            "https://www.zupimages.net/up/23/36/7jhf.png",
+            "https://www.zupimages.net/up/23/36/ylvc.png",
+            "https://www.zupimages.net/up/23/36/lff0.png"
         ],
         "description": "[ Projet OpenClassRooms ] Site d'une photographe non référencé et buggé. Optimisation globale du site: performances + SEO. Création référencement local + réseaux sociaux. Amélioration de l'accessibilité et déboggage du site. Durée de la mission: 3 jours. (avril 2023)",
         "technology": [
@@ -72,15 +63,12 @@
         "id": "Sophie",
         "title": "Sophie Bluel",
         "date": "février 2023",
-        "cover": "https://i.postimg.cc/ZRNs94h5/Any-Conv-com-Sophie-01.webp",
+        "cover": "https://www.zupimages.net/up/23/36/su0c.png",
         "pictures": [
-            "https://i.postimg.cc/ZRNs94h5/Any-Conv-com-Sophie-01.webp",
-            "https://i.postimg.cc/VNdV8XGM/Any-Conv-com-Sophie02.webp",
-            "https://i.postimg.cc/FspWkTw3/Any-Conv-com-Sophie03.webp",
-            "https://i.postimg.cc/TPFHYhFs/Any-Conv-com-Sophie-04.webp",
-            "https://i.postimg.cc/pXRcdwcP/Any-Conv-com-Sophie-05.webp",
-            "https://i.postimg.cc/G3kSdLQM/Any-Conv-com-Sophie06.webp",
-            "https://i.postimg.cc/0jqWDF8d/Any-Conv-com-Sophie07.webp"
+            "https://www.zupimages.net/up/23/36/su0c.png",
+            "https://www.zupimages.net/up/23/36/x6d1.png",
+            "https://www.zupimages.net/up/23/36/vxub.png",
+            "https://www.zupimages.net/up/23/36/sdxw.png"
         ],
         "description": "[ Projet OpenClassRooms ] Création de la front-page du portfolio avec affichage dynamique des travaux. Conception de la page de connexion. Réalisation d'une modale qui ajoute ou supprime les travaux. Durée de la mission: 30 jours. (février 2023)",
         "technology": [
@@ -95,11 +83,10 @@
         "id": "Booki",
         "title": "Booki",
         "date": "décembre 2022",
-        "cover": "https://i.postimg.cc/Fzv22sdJ/Booki01.webp",
+        "cover": "https://www.zupimages.net/up/23/36/urzn.png",
         "pictures": [
-            "https://i.postimg.cc/Fzv22sdJ/Booki01.webp",
-            "https://i.postimg.cc/HntfHDXv/Booki02.webp",
-            "https://i.postimg.cc/h4bFVx68/Booki03.webp"
+            "https://www.zupimages.net/up/23/36/urzn.png",
+            "https://www.zupimages.net/up/23/36/rxhi.png"
         ],
         "description": "[ Projet OpenClassRooms ] L'entreprise souhaite créer une vitrine responsive pour son site Booki. Le code doit être réalisé en HTML et CSS. Travailler en collaboration avec la CTO et l'UI designer. La maquette du site est fournie sur figma. Durée de la mission: 10 jours. (décembre 2022)",
         "technology": [
@@ -115,14 +102,11 @@
         "id": "Shopify 2",
         "title": "Shopify v2",
         "date": "juin 2022",
-        "cover": "https://i.postimg.cc/j27qVpV7/Shopify2-01.webp",
+        "cover": "https://www.zupimages.net/up/23/36/52d3.png",
         "pictures": [
-            "https://i.postimg.cc/j27qVpV7/Shopify2-01.webp",
-            "https://i.postimg.cc/mZz72hBQ/Shopify2-02.webp",
-            "https://i.postimg.cc/BnsFggDg/Shopify2-03.webp",
-            "https://i.postimg.cc/BZrH8snR/Shopify2-04.webp",
-            "https://i.postimg.cc/7YS70cCh/Shopify2-05.webp",
-            "https://i.postimg.cc/WtcNs5jf/Shopify2-06.webp"
+            "https://www.zupimages.net/up/23/36/52d3.png",
+            "https://www.zupimages.net/up/23/36/pyqp.png",
+            "https://www.zupimages.net/up/23/36/ewp4.png"
         ],
         "description": "[ Projet Perso ] Essai de reproduction d'une nouvelle vitrine d'un site, Shopify. Durée de la mission: 2 jours. (juin 2022)",
         "technology": [
@@ -136,9 +120,9 @@
         "id": "Muzzle",
         "title": "Muzzle",
         "date": "mai 2022",
-        "cover": "https://i.postimg.cc/gj0HcKcd/muzzle-01.webp",
+        "cover": "https://www.zupimages.net/up/23/36/7f7q.png",
         "pictures": [
-            "https://i.postimg.cc/gj0HcKcd/muzzle-01.webp"
+            "https://www.zupimages.net/up/23/36/7f7q.png"
         ],
         "description": "[ Projet Perso ] Essai de reproduction d'une vitrine d'un site, Muzzle. Certaines parties de la page ne sont pas créés, comme le chat en direct. Durée de la mission: 7 jours. (mai 2022)",
         "technology": [
@@ -152,13 +136,10 @@
         "id": "Shopify",
         "title": "Shopify",
         "date": "avril 2022",
-        "cover": "https://i.postimg.cc/Y9Bxrhtb/Shopify-01.webp",
+        "cover": "https://www.zupimages.net/up/23/36/l8ph.png",
         "pictures": [
-            "https://i.postimg.cc/Y9Bxrhtb/Shopify-01.webp",
-            "https://i.postimg.cc/fL7fJDLZ/Shopify-02.webp",
-            "https://i.postimg.cc/T1CjJ0g4/Shopify-03.webp",
-            "https://i.postimg.cc/QMTbZpZF/Shopify-04.webp",
-            "https://i.postimg.cc/1X9cF2nF/Shopify-05.webp"
+            "https://www.zupimages.net/up/23/36/l8ph.png",
+            "https://www.zupimages.net/up/23/36/e83m.png"
         ],
         "description": "[ Projet Perso ] Premier contact avec HTML et CSS. Essai de reproduction d'une vitrine d'un site, Shopify. Durée de la mission: 10 jours. (avril 2022)",
         "technology": [
