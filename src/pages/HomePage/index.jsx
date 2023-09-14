@@ -1,5 +1,5 @@
 import NextButton from "../../composants/NextButton/index"
-import Logo from "../../assets/avatar.webp"
+import Logo from "../../assets/photo.png"
 import "./homePage.css"
 
 function HomePage() {

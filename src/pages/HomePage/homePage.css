@@ -88,7 +88,7 @@ h2{
 .homePage{
     position: relative;
     width: 100%;
-    animation: pageChange 1s;
+    animation: pageChange 0.3s;
 }
 .homePage h2{
     width: 70%;

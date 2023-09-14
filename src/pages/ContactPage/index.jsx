@@ -1,7 +1,8 @@
 import logoTwitter from "../../assets/twitter.png"
 import logoLinkedin from "../../assets/linkedin.webp"
 import logoGitHub from "../../assets/github.png"
-import logoCV from "../../assets/avatar.webp"
+import logoCV from "../../assets/iconeCV.png"
+import CV from "../../CV.pdf"
 import "./contactPage.css"
 
 function ContactPage() {
@@ -21,7 +22,7 @@ function ContactPage() {
                         <a className="linkedin" href="https://www.linkedin.com/in/thomas-joudinaud-829587270/" target="_blank" rel="noopener noreferrer"><img src={logoLinkedin} alt="linkedin" /></a>
                         <a className="twitter" href="https://twitter.com/Thomas_DevDoe" target="_blank" rel="noopener noreferrer"><img src={logoTwitter} alt="twitter" /></a>
                         <a className="github" href="https://github.com/ThomasJoudinaud" target="_blank" rel="noopener noreferrer"><img src={logoGitHub} alt="GitHub" /></a>
-                        <div className="cv" target="_blank" rel="noopener noreferrer"><img src={logoCV} alt="cv" /></div>
+                        <a  className="cv" href={CV} target="_blank" rel="noopener noreferrer"><img src={logoCV} alt="cv" /></a>
                     </div>
                 </div>
             </div>

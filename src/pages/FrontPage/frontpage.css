@@ -1,5 +1,5 @@
 .frontPage{
-    animation: pageChange 1s;
+    animation: pageChange 0.3s;
     width: 100%;
 }
 .frontPage h2{
@@ -52,7 +52,7 @@
     background-color: rgb(37, 37, 37);
     box-shadow: 2px 2px 5px 3px rgb(5, 5, 5);
     border-radius: 10px;
-    animation: slideIn 2s;
+    animation: slideIn 0.5s;
     cursor: pointer;
     transition: 0.3s ease;
 }

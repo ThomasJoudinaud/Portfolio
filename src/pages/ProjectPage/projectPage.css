@@ -1,5 +1,5 @@
 .projectPage{
-    animation: pageChange 1s;
+    animation: pageChange 0.3s;
     width: 100%;
 }
 .projectPage h2{

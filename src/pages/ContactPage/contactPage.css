@@ -1,5 +1,5 @@
 .contactPageBlock{
-    animation: pageChange 1s;
+    animation: pageChange 0.3s;
     position: relative;
     width: 100%;
 }
@@ -28,7 +28,7 @@
     background-color: rgb(37, 37, 37);
     padding: 0.5rem;
     border-radius: 15px;
-    animation: slideIn 2s;
+    animation: slideIn 0.5s;
 }
 .mail h3{
     height: 100%;
